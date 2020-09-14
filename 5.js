@@ -1,7 +1,16 @@
 
 function fun_1(){
     var r = prompt("change elements of h1","type something");
-    document.getElementById("1").innerHTML = r;
+    console.log(r);
+    if(r==null){
+        
+    }
+    else{
+        //document.getElementById("1").innerHTML = r;
+        var h1 = document.getElementById("1");
+        h1.innerHTML = r;
+        h1.style.backgroundColor = "yellow";
+    }
     
 }
 function fun_2(){
