@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>minutes and seconds</title>
+        <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="card">
+                <div class="card-header">Click to Start!</div>
+                <div class="card-body">
+                    <div class="row mt-2">
+                        <div class="col-md-6">
+                            Minutes:
+                            <input type="text" id="txt_1">
+                            seconds:
+                            <input type="text" id="txt_2" value="0"> 
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <input type="button" value="start" onclick="timer()" class="btn btn-primary">
+                            <input type="button" value="stop"  onclick="terminate()" class="btn btn-primary">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="stopwatch.js">
+
+        </script>
+    </body>
+</html>
